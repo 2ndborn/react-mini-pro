@@ -13,11 +13,12 @@ import RenderingList from './components/RenderingList';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWUTracker';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
     <div className="App">
-      <LifeCyclesCWU />
+      <ControlledForm />
     </div>
   );
 }
