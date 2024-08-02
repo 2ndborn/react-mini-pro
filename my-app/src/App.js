@@ -16,11 +16,12 @@ import LifeCyclesCWU from './components/LifeCyclesCWUTracker';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArragys from './components/UseStateWithArragys';
 
 function App() {
   return (
     <div className="App">
-      <ControlledFormHooks />
+      <UseStateWithArragys />
     </div>
   );
 }
