@@ -18,11 +18,13 @@ import UncontrolledForm from './components/UncontrolledForm';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArragys from './components/UseStateWithArragys';
 import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
     <div className="App">
-      <UseStateWithObjects />
+      <UseEffectCounterContainer />
     </div>
   );
 }
